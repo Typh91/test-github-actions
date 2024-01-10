@@ -1,0 +1,13 @@
+name:  First try of Github Actions
+
+on:
+  push: 
+    branches:
+    - main
+
+jobs:
+  pruebas_github_actions:
+    runs-on: ubuntu-latest
+    steps:
+
+    - run: echo "Prueba Github Actions"
